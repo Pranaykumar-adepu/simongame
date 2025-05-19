@@ -1,5 +1,4 @@
 
-
 let gameSeq = [];
 let userSeq = [];
 
@@ -61,9 +60,9 @@ function checkans(idx) {
         }
        
     } else {
-        
-         h3.innerText=`Top socer level ${level}`;
-        h2.innerHTML = `Game is over! your score <b> level ${level} </b><br>press again to start the game`;
+
+         h3.innerText=`Top score level ${level}`;
+        h2.innerHTML = `Game is over!  your score <b> level ${level} </b><br>press again to start the game`;
         let body=document.querySelector("body").style.backgroundColor="red";
         setTimeout(function(){
             body=document.querySelector("body").style.backgroundColor="white";
